@@ -175,6 +175,14 @@ ___
 The following are the Confusion Martix and ROC Curves for the models which were trained
 ---
 
+Notice: The following Confusion Matrices were evaluated for models with their default threshold.
+
+But because the Business Model requires that we aim to include all potential customers, the confusion matrix in the Main.ipynb files have been evaluated for models with a lower threshold
+
+The ROC Curves although will remain the same as they are not dependent on change in thresholds for a model.
+
+In fact the primary use of ROC Curves is find a suitable threshold for a model based on the precison - recall tradeoff we are willing to make.
+
 * __Logistic Regression Model__
 
 ![](./assets/lrcm.PNG)
@@ -200,9 +208,9 @@ Lastly, we see a plot which shows the impact different variables make in Decisio
 
 __For detailed analysis read the Main.ipynb Jupyter notebook__
 
--- Regards
+_Regards_
 
--- Shubham Anand
+_Shubham Anand_
 
 
 ```python
